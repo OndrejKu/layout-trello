@@ -25,16 +25,16 @@
     margin-bottom: 20px;
 }
 
-#board.layout-trello-mixed .list-wrapper:nth-child(-n+2) {
+#board.layout-trello-mixed .list-wrapper:nth-child(-n+3) {
     height: 100%;
     display: inline-block;
     float: left;
 }
 
-#board.layout-trello-mixed .list-wrapper:nth-child(n+3) {
+#board.layout-trello-mixed .list-wrapper:nth-child(n+4) {
     float: none;
     width: 15%;
-    margin-left: 583px;
+    margin-left: calc(3*292px);
     height: auto;
 }
 
